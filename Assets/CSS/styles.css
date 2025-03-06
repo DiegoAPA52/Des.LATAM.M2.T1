@@ -1,0 +1,112 @@
+body,
+menu {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif, cursive;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+menu {
+    background-color: #fff;
+    width: 30em;
+    border-color: #828485;
+    border-style: solid;
+}
+
+menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #A491D2;
+    color: #fff;
+    border-color: #fff;
+}
+
+menu a {
+    text-decoration: none;
+    color: black;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+menu h4:hover {
+    color: #1b1f21;
+    font-size: 1.5em;
+}
+
+
+h3 {
+    color: #1b1f21;
+}
+
+.name {
+    font-size: larger;
+}
+
+.testing {
+    color: #444479;
+    padding: 2em;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    border-color: #828485;
+    border-top-style: solid;
+}
+
+.imgp {
+    border-radius: 100%;
+}
+
+.imgch {
+    padding: 1em;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+
+menu i {
+    padding-top: 1em;
+}
+
+.fondo {
+    width: 10em;
+}
+
+
+.hand {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20em;
+}
+
+.imgh {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 5%;
+    font-size: 1.4em;
+    font-stretch: expanded;
+    height: 8em;
+    width: 100%;
+    padding: 1em 8em;
+    background-color: #fff;
+    text-align: center;
+    color: 1B1F21;
+    text-shadow: 1px #000;
+}
